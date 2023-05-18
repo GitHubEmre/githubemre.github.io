@@ -9,7 +9,7 @@
 	var	$window = $(window),
 		$body = $('body'),
 		$wrapper = $('#page-wrapper'),
-		$banner = $('#banner'),
+		$accueil = $('#accueil'),
 		$header = $('#header');
 
 	// Breakpoints.
@@ -26,6 +26,7 @@
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
 			}, 100);
+			document.getElementById("copyright-year").innerHTML = new Date().getFullYear();
 		});
 
 	// Mobile?
@@ -66,12 +67,12 @@
 			});
 
 	// Header.
-		if ($banner.length > 0
+		if ($accueil.length > 0
 		&&	$header.hasClass('alt')) {
 
 			$window.on('resize', function() { $window.trigger('scroll'); });
 
-			$banner.scrollex({
+			$accueil.scrollex({
 				bottom:		$header.outerHeight() + 1,
 				terminate:	function() { $header.removeClass('alt'); },
 				enter:		function() { $header.addClass('alt'); },

@@ -4,9 +4,9 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Banner */
+/* Accueil */
 
-	body.is-preload #banner h2 {
+	body.is-preload #accueil h2 {
 		-moz-transform: none;
 		-webkit-transform: none;
 		-ms-transform: none;
@@ -14,11 +14,11 @@
 		opacity: 1;
 	}
 
-		body.is-preload #banner h2:before, body.is-preload #banner h2:after {
+		body.is-preload #accueil h2:before, body.is-preload #accueil h2:after {
 			width: 100%;
 		}
 
-	body.is-preload #banner .more {
+	body.is-preload #accueil .more {
 		-moz-transform: none;
 		-webkit-transform: none;
 		-ms-transform: none;
@@ -26,6 +26,6 @@
 		opacity: 1;
 	}
 
-	body.is-preload #banner:after {
+	body.is-preload #accueil:after {
 		opacity: 0;
 	}

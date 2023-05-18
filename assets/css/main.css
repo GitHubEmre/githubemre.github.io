@@ -2078,15 +2078,15 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #00ffcc;
+			color: #fff;
 		}
 
 		.icon.style2 {
-			color: #00f0ff;
+			color: #fff;
 		}
 
 		.icon.style3 {
-			color: #76ddff;
+			color: #fff;
 		}
 
 /* Image */
@@ -2703,23 +2703,23 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgba(0, 0, 0, 0.075);
+			background-color: #b1ddab;
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.15);
+			background-color: #95b78f;
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.225);
+			background-color: #799273;
 		}
 
 		.spotlight:nth-child(4) {
-			background-color: rgba(0, 0, 0, 0.3);
+			background-color: #5e6f5a;
 		}
 
 		.spotlight:nth-child(5) {
-			background-color: rgba(0, 0, 0, 0.375);
+			background-color: #444e41;
 		}
 
 		.spotlight:nth-child(6) {
@@ -2817,7 +2817,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
+			background-color: #fff;
 			color: #c8ece9;
 		}
 
@@ -2826,7 +2826,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
-				color: #ffffff;
+				color: #6b7770;
 			}
 
 			.wrapper.style1 hr {
@@ -2850,7 +2850,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 header.major p {
-				color: #c8ece9;
+				color: #6b7770;
 			}
 
 			.wrapper.style1 label {
@@ -2912,6 +2912,7 @@ input, select, textarea {
 
 			.wrapper.style1 .icon.major {
 				border-color: rgba(0, 0, 0, 0.125);
+				background-color: #c1cac5;
 			}
 
 			.wrapper.style1 ul.alt li {
@@ -3351,7 +3352,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		background: #2e3842;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3561,9 +3562,9 @@ input, select, textarea {
 				opacity: 0;
 			}
 
-/* Banner */
+/* Accueil */
 
-	#banner {
+	#accueil {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3584,7 +3585,7 @@ input, select, textarea {
 		text-align: center;
 	}
 
-		#banner h2 {
+		#accueil h2 {
 			-moz-transform: scale(1);
 			-webkit-transform: scale(1);
 			-ms-transform: scale(1);
@@ -3601,7 +3602,7 @@ input, select, textarea {
 			z-index: 1;
 		}
 
-			#banner h2:before, #banner h2:after {
+			#accueil h2:before, #accueil h2:after {
 				-moz-transition: width 0.85s ease;
 				-webkit-transition: width 0.85s ease;
 				-ms-transition: width 0.85s ease;
@@ -3618,26 +3619,26 @@ input, select, textarea {
 				width: 100%;
 			}
 
-			#banner h2:before {
+			#accueil h2:before {
 				top: 0;
 				left: 0;
 			}
 
-			#banner h2:after {
+			#accueil h2:after {
 				bottom: 0;
 				right: 0;
 			}
 
-		#banner p {
+		#accueil p {
 			letter-spacing: 0.225em;
 			text-transform: uppercase;
 		}
 
-			#banner p a {
+			#accueil p a {
 				color: inherit;
 			}
 
-		#banner .more {
+		#accueil .more {
 			-moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
 			-webkit-transition: -webkit-transform 0.75s ease, opacity 0.75s ease;
 			-ms-transition: -ms-transform 0.75s ease, opacity 0.75s ease;
@@ -3668,7 +3669,7 @@ input, select, textarea {
 			z-index: 1;
 		}
 
-			#banner .more:after {
+			#accueil .more:after {
 				background-image: url("images/arrow.svg");
 				background-position: center;
 				background-repeat: no-repeat;
@@ -3683,7 +3684,7 @@ input, select, textarea {
 				width: 1.5em;
 			}
 
-		#banner:after {
+		#accueil:after {
 			pointer-events: none;
 			-moz-transition: opacity 3s ease-in-out;
 			-webkit-transition: opacity 3s ease-in-out;
@@ -3706,27 +3707,27 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			#banner {
+			#accueil {
 				padding: 7em 3em 5em 3em ;
 				height: auto;
 				min-height: 0;
 			}
 
-				#banner h2 {
+				#accueil h2 {
 					font-size: 1.25em;
 				}
 
-				#banner br {
+				#accueil br {
 					display: none;
 				}
 
-				#banner .more {
+				#accueil .more {
 					display: none;
 				}
 
 		}
 
-	body.is-preload #banner h2 {
+	body.is-preload #accueil h2 {
 		-moz-transform: scale(0.95);
 		-webkit-transform: scale(0.95);
 		-ms-transform: scale(0.95);
@@ -3734,11 +3735,11 @@ input, select, textarea {
 		opacity: 0;
 	}
 
-		body.is-preload #banner h2:before, body.is-preload #banner h2:after {
+		body.is-preload #accueil h2:before, body.is-preload #accueil h2:after {
 			width: 0;
 		}
 
-	body.is-preload #banner .more {
+	body.is-preload #accueil .more {
 		-moz-transform: translateY(8.5em);
 		-webkit-transform: translateY(8.5em);
 		-ms-transform: translateY(8.5em);
@@ -3746,7 +3747,7 @@ input, select, textarea {
 		opacity: 0;
 	}
 
-	body.is-preload #banner:after {
+	body.is-preload #accueil:after {
 		opacity: 1;
 	}
 
@@ -3882,27 +3883,36 @@ input, select, textarea {
 		background-attachment: scroll;
 	}
 
-/* Footer */
+/* Contacter */
 
-	#footer {
-		padding: 6em 0 4em 0 ;
-		background-color: #1d242a;
+	#contacter {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		min-height: 336px;
+		padding-top: 5.5rem;
+		padding-bottom: 2rem;
 		text-align: center;
+		background-color: #1d242a;
 	}
 
-		#footer .icons {
+	#contacter ul {
+		margin: 0;
+	}
+
+		#contacter .icons {
 			font-size: 1.25em;
 		}
 
-			#footer .icons a {
+			#contacter .icons a {
 				color: rgba(255, 255, 255, 0.5);
 			}
 
-				#footer .icons a:hover {
+				#contacter .icons a:hover {
 					color: #fff;
 				}
 
-		#footer .copyright {
+		#contacter .copyright {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8em;
 			letter-spacing: 0.225em;
@@ -3911,7 +3921,7 @@ input, select, textarea {
 			text-transform: uppercase;
 		}
 
-			#footer .copyright li {
+			#contacter .copyright li {
 				border-left: solid 1px rgba(255, 255, 255, 0.5);
 				display: inline-block;
 				line-height: 1em;
@@ -3919,48 +3929,46 @@ input, select, textarea {
 				padding-left: 1em;
 			}
 
-				#footer .copyright li:first-child {
+				#contacter .copyright li:first-child {
 					border-left: 0;
 					margin-left: 0;
 					padding-left: 0;
 				}
 
-				#footer .copyright li a {
+				#contacter .copyright li a {
 					color: inherit;
 				}
 
-					#footer .copyright li a:hover {
+					#contacter .copyright li a:hover {
 						color: #fff;
 					}
 
 				@media screen and (max-width: 480px) {
 
-					#footer .copyright li {
+					#contacter .copyright li {
 						border: 0;
 						display: block;
 						line-height: 1.65em;
 						margin: 0;
-						padding: 0.5em 0;
 					}
 
 				}
 
 		@media screen and (max-width: 980px) {
 
-			#footer {
+			#contacter {
 				padding: 4em 3em 2em 3em ;
 			}
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 480px) {
 
-			#footer {
-				padding: 3em 2em 1em 2em ;
+			#contacter {
+				padding: 2rem 1rem 1rem 1rem;
 			}
 
 		}
-
 /* Landing */
 
 	body.landing #page-wrapper {
@@ -3975,7 +3983,7 @@ input, select, textarea {
 		padding-top: 0;
 	}
 
-	body.landing #footer {
+	body.landing #contacter {
 		background-color: rgba(29, 36, 42, 0.9);
 	}
 
@@ -3983,7 +3991,7 @@ input, select, textarea {
 		background: none;
 	}
 
-	body.is-mobile.landing #banner,
+	body.is-mobile.landing #accueil,
 	body.is-mobile.landing .wrapper.style4 {
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
@@ -3994,6 +4002,44 @@ input, select, textarea {
 		background-size: cover;
 	}
 
-	body.is-mobile.landing #footer {
+	body.is-mobile.landing #contacter {
 		background-color: #1d242a;
 	}
+
+.contact-container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact i {
+	font-size: 2rem;
+	margin-bottom: .9rem;
+}
+
+.contact hr {
+	width: 3rem;
+	margin: .2rem auto 1.8rem auto;
+}
+
+.contact a {
+	border-bottom: none;
+}
+
+@media screen and (max-width: 480px) {
+	.contact-container {
+		flex-direction: column;
+	}
+
+	.contact {
+		margin-bottom: 2rem;
+	}
+
+	.contact hr {
+		margin-bottom: .2rem;
+	}
+}
