@@ -809,17 +809,13 @@ body.is-mobile.landing #contacter {
 		padding: 0 0 0 1.5em;
 	}
 	#accueil {
-		padding: 7em 3em 5em 3em ;
-		height: auto;
-		min-height: 0;
+		padding-left: 3em;
+		padding-right: 3em;
 	}
 	#accueil h2 {
 		font-size: 1.25em;
 	}
 	#accueil br {
-		display: none;
-	}
-	#accueil .more {
 		display: none;
 	}
 }
