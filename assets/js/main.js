@@ -45,11 +45,10 @@
 		}
 
 	// Scrolly.
-		$('.scrolly')
-			.scrolly({
-				speed: 1500,
-				offset: $header.outerHeight()
-			});
+	$('.scrolly').scrolly({
+		speed: 700,
+		offset: $header.outerHeight() - 5
+	});
 
 	// Menu.
 		$('#menu')
