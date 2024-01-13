@@ -68,7 +68,7 @@
 	// Header.
 		if ($accueil.length > 0
 		&&	$header.hasClass('alt')) {
-
+			console.log($accueil.length);
 			$window.on('resize', function() { $window.trigger('scroll'); });
 
 			$accueil.scrollex({

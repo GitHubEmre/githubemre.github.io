@@ -634,13 +634,19 @@ body.is-preload #accueil:after {
 	flex-direction: column;
 	justify-content: space-between;
 	min-height: 336px;
-	padding-top: 5.5rem;
-	padding-bottom: 2rem;
+	padding-top: 3rem;
+	padding-bottom: 1.5rem;
 	text-align: center;
 	background-color: #1d242a;
 }
 #contacter ul {
 	margin: 0;
+}
+#contacter .contact-title {
+	width: fit-content;
+	border-bottom: solid 2px #fff;
+	padding-bottom: 1.5rem;
+	margin: 0 auto 1.5rem auto;
 }
 #contacter .copyright {
 	color: rgba(255, 255, 255, 0.5);
@@ -671,6 +677,7 @@ body.is-preload #accueil:after {
 .contact-container {
 	display: flex;
 	justify-content: space-around;
+	margin-bottom: 1.5rem;
 }
 .contact {
 	display: flex;
@@ -678,11 +685,11 @@ body.is-preload #accueil:after {
 }
 .contact i {
 	font-size: 2rem;
-	margin-bottom: .9rem;
+	margin-bottom: .75rem;
 }
 .contact hr {
 	width: 3rem;
-	margin: .2rem auto 1.8rem auto;
+	margin: .2rem auto .75rem auto;
 }
 .contact a {
 	border-bottom: none;
@@ -838,4 +845,10 @@ body.is-mobile.landing #contacter {
 	.contact hr {
 		margin-bottom: .2rem;
 	}
+}
+
+#ddlProducts *
+{
+ border-radius: 15px;
+ background-color: red;
 }
