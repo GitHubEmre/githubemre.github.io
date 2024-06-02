@@ -222,6 +222,9 @@ ul.icons.major li {
 	max-width: 48em;
 	width: 60%;
 }
+.spotlight .content p {
+	text-align: justify;
+}
 .spotlight:nth-child(2n) {
 	-moz-flex-direction: row-reverse;
 	-webkit-flex-direction: row-reverse;
@@ -247,10 +250,6 @@ ul.icons.major li {
 /* Wrapper */
 .wrapper {
 	padding: 6em 0 4em 0 ;
-}
-.wrapper.activity > .inner {
-	width: 60em;
-	margin: 0 auto;
 }
 .wrapper.services {
 	padding: 0;
@@ -633,8 +632,7 @@ body.is-preload #accueil:after {
 	background-image: url(../../images/carousel-background.jpg);
 	background-size: cover;
 	background-position: center;
-	padding-top: 36px;
-	padding-bottom: 36px;
+	padding: 36px;
 }
 
 #realisations::before {
@@ -645,14 +643,6 @@ body.is-preload #accueil:after {
 	bottom: 0;
 	left: 0;
 	background-color: rgba(0, 0, 0, 0.75);
-}
-
-#realisations .gallery-container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 #realisations a {
@@ -676,6 +666,7 @@ body.is-preload #accueil:after {
 
 #realisations .gallery-title p {
     margin-bottom: 16px;
+	text-align: justify;
 }
 
 #realisations .gallery {
@@ -725,10 +716,8 @@ body.is-preload #accueil:after {
 #contacter {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 	min-height: 336px;
-	padding-top: 3rem;
-	padding-bottom: 1.5rem;
+	padding: 36px;
 	text-align: center;
 	background-color: #1d242a;
 }
@@ -739,7 +728,7 @@ body.is-preload #accueil:after {
 	width: fit-content;
 	border-bottom: solid 2px #fff;
 	padding-bottom: 1.5rem;
-	margin: 0 auto 1.5rem auto;
+	margin: 0 auto 32px auto;
 }
 #contacter .copyright {
 	color: rgba(255, 255, 255, 0.5);
@@ -836,9 +825,6 @@ body.is-mobile.landing #contacter {
 	.spotlight .content {
 		width: 55%;
 	}
-	.wrapper.activity > .inner {
-		width: 90%;
-	}
 }
 @media screen and (max-width: 980px) {
 	header br {
@@ -856,13 +842,10 @@ body.is-mobile.landing #contacter {
 		text-align: center;
 		width: 100%;
 	}
-	.wrapper.activity > .inner {
-		width: 100%;
+	.spotlight .content p {
+		text-align: justify;
 	}
 	.wrapper {
-		padding: 4em 3em 2em 3em ;
-	}
-	#contacter {
 		padding: 4em 3em 2em 3em ;
 	}
 }
@@ -918,6 +901,12 @@ body.is-mobile.landing #contacter {
 	#accueil br {
 		display: none;
 	}
+	#activite .our-activity-details div {
+		width: 100%;
+	}
+	.wrapper.activity header.major p {
+		text-align: justify;
+	}
 }
 @media screen and (max-width: 480px) {
 	#contacter .copyright li {
@@ -926,57 +915,29 @@ body.is-mobile.landing #contacter {
 		line-height: 1.65em;
 		margin: 0;
 	}
-	#contacter {
-		padding: 2rem 1rem 1rem 1rem;
-	}
 	.contact-container {
 		flex-direction: column;
 	}
-	.contact {
+	.contact:first-child {
 		margin-bottom: 2rem;
 	}
 	.contact hr {
 		margin-bottom: .2rem;
 	}
 	.gallery {
-	  max-width: 220px;
-	  margin-left: auto;
-	  margin-right: auto;
+		max-width: 220px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	.slick-dots li {
-	  margin: 0 8px;
+	  	margin: 0 8px;
 	}
 	.gallery-item {
-	  margin: 0;
+	  	margin: 0;
 	}
 }
-@media (min-width: 576px) {
-    .gallery-container {
-        max-width: 540px;
-    }
-}
-@media (min-width: 768px) {
-    .gallery-container {
-        max-width: 720px;
-    }
-}
-@media (min-width: 992px) {
-    .gallery-container {
-        max-width: 960px;
-    }
-}
-@media (min-width: 1200px) {  
-	.gallery-container {
-	  max-width: 1290px;
-	}
-  
+@media (min-width: 1200px) {
 	.tm-container-contact {
-	  max-width: 1063px;
+	  	max-width: 1063px;
 	}
-}
-
-#ddlProducts *
-{
- border-radius: 15px;
- background-color: red;
 }
