@@ -647,6 +647,8 @@ body.is-preload #accueil:after {
 
 #realisations a {
 	border: 0;
+	display: flex;
+	justify-content: center;
 }
 
 #realisations a:focus-visible {
